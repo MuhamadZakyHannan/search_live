@@ -1,0 +1,31 @@
+/* Animasi fade-in hasil pencarian */
+.fade-in {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Spinner loading */
+#loading {
+  display: none;
+  text-align: center;
+  color: #0d6efd; /* Bootstrap primary */
+}
+
+#loading .spinner-border {
+  width: 2rem;
+  height: 2rem;
+}
+
+#loading p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
